@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.columns-container-0 {
+    background-color: slategray;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    display: flex;
+    list-style-type: none;
+    margin-top: 65px;
+}
+.header li{
+    margin-left: 90px;
+    font-size: 24px;
+    border-bottom: 3px solid lightblue;
+}
+.Lernantino{
+    background-color: lightblue;
+    height: 63px;
+    width: 405px;
+    text-align: end;
+    margin-top: 15px;
+    font-size: 50px;
+    padding: 20px;
+}
+hero{
+    position: relative;
+}
+hero img{
+    width: 100%;
+    height: 250px;
+}
+hero h1{
+    position: absolute;
+    bottom: 25px;
+    background-color: lightblue;
+    right: 20px;
+    padding: 15px;
+}
+.columns-container-1{
+    display: flex;
+    margin-bottom: 40px;
+}
+.columns-container-1 h1{
+    padding: 10px;
+}
+.columns-container-1 p{
+    padding: 10px;
+}
+.columns-container-2 {
+    margin-bottom: 200px;
+}
+.columns-container-2 h1{
+    padding: 10px;
+}
+.columns-container-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.columns-container-3 h1{
+    padding: 10px;
+}
+.footer{
+    display: contents;
+    list-style-type: none;
+}
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4,
+.footer-5{
+    margin-top: 16px;
+}
+.image-1{
+    position: relative;
+    left: 185px;
+    height: 600px;
+    border: 4px solid lightblue;
+    width: 650px;
+}
+.image-2{
+    position: relative;
+    display: block;
+    left: 185px;
+    margin-bottom: 5px;
+    border: 4px solid lightblue;
+    height: 120px;
+    width: 325px;
+}
+.image-3{
+    position: relative;
+    display: block;
+    left: 185px;
+    margin-bottom: 5px;
+    border: 4px solid lightblue;
+    height: 120px;
+    width: 325px;
+}
